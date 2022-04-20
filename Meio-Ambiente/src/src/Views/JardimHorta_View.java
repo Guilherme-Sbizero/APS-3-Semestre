@@ -4,13 +4,12 @@
  */
 package src.Views;
 
-import Models.Interatividade_Interface;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 
 /**
  *
- * @autor Celso Avelino Araujo
+ * @autor Guilherme Sbizero
  */
 public class JardimHorta_View extends javax.swing.JFrame implements Interatividade_Interface {
 
@@ -231,7 +230,6 @@ public class JardimHorta_View extends javax.swing.JFrame implements Interativida
     private javax.swing.JLabel txt_titulo;
     // End of variables declaration//GEN-END:variables
 
-    @Override
     public void mudarIcone(String enderecoImg, int botao) {
 
         ImageIcon img = new ImageIcon(getClass().getResource(enderecoImg));
@@ -258,7 +256,6 @@ public class JardimHorta_View extends javax.swing.JFrame implements Interativida
 
     }
 
-    @Override
     public void chamarView(int view) {
 
         switch (view) {
@@ -281,7 +278,6 @@ public class JardimHorta_View extends javax.swing.JFrame implements Interativida
         super.dispose();
     }
 
-    @Override
     public void inicializarComponentes() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }

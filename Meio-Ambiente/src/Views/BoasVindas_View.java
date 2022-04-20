@@ -5,7 +5,7 @@
 package src.Views;
 
 /*
- * @autor Celso Avelino Araújo
+ * @autor Guilherme Sbizero
  */
 public class BoasVindas_View extends javax.swing.JFrame {
 

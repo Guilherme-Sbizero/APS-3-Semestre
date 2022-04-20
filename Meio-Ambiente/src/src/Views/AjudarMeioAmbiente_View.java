@@ -11,7 +11,7 @@ import javax.swing.ImageIcon;
 
 /**
  *
- * @author Maikon
+ * @author Guilherme Sbizero
  */
 public class AjudarMeioAmbiente_View extends javax.swing.JFrame implements Interatividade_Interface {
 

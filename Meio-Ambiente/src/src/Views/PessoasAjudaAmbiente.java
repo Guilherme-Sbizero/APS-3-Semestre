@@ -4,11 +4,9 @@
  */
 package src.Views;
 
-import Models.Interatividade_Interface;
-
 /**
  *
- * @author Celso Avelino Araújo
+ * @author Guilherme Sbizero
  */
 public class PessoasAjudaAmbiente extends javax.swing.JFrame implements Interatividade_Interface {
 
@@ -140,19 +138,16 @@ public class PessoasAjudaAmbiente extends javax.swing.JFrame implements Interati
     private javax.swing.JLabel titulo;
     // End of variables declaration//GEN-END:variables
 
-    @Override
     public void mudarIcone(String enderecoImg, int botao) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    @Override
     public void chamarView(int view) {
         InformacoesPessoasAjudaAmbiente.setHeroi(view);
         new InformacoesPessoasAjudaAmbiente();
         super.dispose();
     }
 
-    @Override
     public void inicializarComponentes() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }

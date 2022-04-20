@@ -3,18 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package src.Models;
+package src.Views;
 
 /**
  *
  * @author Guilherme Sbizero
  */
-public interface Interatividade_Interface {
-    
-    void mudarIcone(String enderecoImg, int botao);
-    
-    void chamarView(int view); 
-    
-    void inicializarComponentes();
+interface Interatividade_Interface {
     
 }

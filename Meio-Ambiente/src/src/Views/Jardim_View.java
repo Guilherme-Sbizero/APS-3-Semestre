@@ -4,13 +4,12 @@
  */
 package src.Views;
 
-import Models.Interatividade_Interface;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 
 /**
  *
- * @author Celso Avelino Araújo
+ * @author Guilherme Sbizero
  */
 public class Jardim_View extends javax.swing.JFrame implements Interatividade_Interface {
 
@@ -213,7 +212,7 @@ public class Jardim_View extends javax.swing.JFrame implements Interatividade_In
     private javax.swing.JLabel txt_estilosPlantas;
     // End of variables declaration//GEN-END:variables
 
-    @Override
+
     public void mudarIcone(String enderecoImg, int botao) {
 
         ImageIcon img = new ImageIcon(getClass().getResource(enderecoImg));
@@ -295,7 +294,6 @@ public class Jardim_View extends javax.swing.JFrame implements Interatividade_In
 
     }
 
-    @Override
     public void chamarView(int view) {
 
         new JardimHorta_View();
@@ -303,7 +301,6 @@ public class Jardim_View extends javax.swing.JFrame implements Interatividade_In
 
     }
 
-    @Override
     public void inicializarComponentes() {
         btn_Prev.setVisible(false);
         btn_Prev1.setVisible(false);

@@ -4,7 +4,6 @@
  */
 package src.Views;
 
-import Models.Interatividade_Interface;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 
@@ -269,7 +268,6 @@ public class Principal_View extends javax.swing.JFrame implements Interatividade
     }
 
     // Método mudarIcone que recebe um endereço de imagem e um inteiro como identificador do botão
-    @Override
     public void mudarIcone(String enderecoImg, int botao) {
 
         ImageIcon img = new ImageIcon(getClass().getResource(enderecoImg));
@@ -304,7 +302,7 @@ public class Principal_View extends javax.swing.JFrame implements Interatividade
 
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.JLabel Btn_meioAmbienteSuaCasa;
     private javax.swing.JLabel btn_ajudaMeioAmbiente;
     private javax.swing.JLabel btn_herois;
@@ -315,7 +313,6 @@ public class Principal_View extends javax.swing.JFrame implements Interatividade
     private javax.swing.JLabel lbl_meio_ambiente_sua_casa;
     private javax.swing.JLabel lbl_plantaImage;
 
-    @Override
     public void chamarView(int view) {
 
         switch (view) {
@@ -339,7 +336,6 @@ public class Principal_View extends javax.swing.JFrame implements Interatividade
         super.dispose();
     }
 
-    @Override
     public void inicializarComponentes() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }

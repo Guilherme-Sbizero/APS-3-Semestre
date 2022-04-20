@@ -4,13 +4,13 @@
  */
 package src.Views;
 
-import Models.Interatividade_Interface;
 import java.awt.Image;
 import javax.swing.ImageIcon;
+import src.Models.Interatividade_Interface;
 
 /**
  *
- * @author Celso Avelino Araújo
+ * @author Guilherme Sbizero
  */
 public class Horta_View extends javax.swing.JFrame implements Interatividade_Interface {
 

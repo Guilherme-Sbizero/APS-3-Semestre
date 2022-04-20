@@ -9,7 +9,7 @@ import javax.swing.ImageIcon;
 
 /**
  *
- * @author Celso Avelino Araújo
+ * @author Guilherme Sbizero
  */
 public class InformacoesPessoasAjudaAmbiente extends javax.swing.JFrame {
 
