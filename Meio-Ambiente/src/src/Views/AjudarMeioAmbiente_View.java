@@ -154,56 +154,49 @@ public class AjudarMeioAmbiente_View extends javax.swing.JFrame implements Inter
 
     private void btn_PrevMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_PrevMouseClicked
 
-        if (paginasAMA == 11) {
-
-            paginasAMA = 10;
-            mudarIcone("/Images/AJudarMeioAmbiente/nono.jpg", 3);
-
-        } else if (paginasAMA == 10) {
-
-            paginasAMA = 9;
-            mudarIcone("/Images/AJudarMeioAmbiente/oitavo.jpg", 3);
-
-        } else if (paginasAMA == 9) {
-
-            paginasAMA = 8;
-            mudarIcone("/Images/AJudarMeioAmbiente/setimo.jpg", 3);
-
-        } else if (paginasAMA == 8) {
-
-            paginasAMA = 7;
-            mudarIcone("/Images/AJudarMeioAmbiente/sexto.jpg", 3);
-
-        } else if (paginasAMA == 7) {
-
-            paginasAMA = 6;
-            mudarIcone("/Images/AJudarMeioAmbiente/quinto.jpg", 3);
-
-        } else if (paginasAMA == 6) {
-
-            paginasAMA = 5;
-            mudarIcone("/Images/AJudarMeioAmbiente/quarto.jpg", 3);
-
-        } else if (paginasAMA == 5) {
-
-            paginasAMA = 4;
-            mudarIcone("/Images/AJudarMeioAmbiente/terceiro.jpg", 3);
-
-        } else if (paginasAMA == 4) {
-
-            paginasAMA = 3;
-            mudarIcone("/Images/AJudarMeioAmbiente/segundo.jpg", 3);
-
-        } else if (paginasAMA == 3) {
-
-            paginasAMA = 2;
-            mudarIcone("/Images/AJudarMeioAmbiente/primeiro.jpg", 3);
-
-        } else if (paginasAMA == 2) {
-
-            paginasAMA = 1;
-            mudarIcone("/Images/AJudarMeioAmbiente/Zero.jpg", 1);
-
+        switch (paginasAMA) {
+            case 11:
+                paginasAMA = 10;
+                mudarIcone("/Images/AJudarMeioAmbiente/nono.jpg", 3);
+                break;
+            case 10:
+                paginasAMA = 9;
+                mudarIcone("/Images/AJudarMeioAmbiente/oitavo.jpg", 3);
+                break;
+            case 9:
+                paginasAMA = 8;
+                mudarIcone("/Images/AJudarMeioAmbiente/setimo.jpg", 3);
+                break;
+            case 8:
+                paginasAMA = 7;
+                mudarIcone("/Images/AJudarMeioAmbiente/sexto.jpg", 3);
+                break;
+            case 7:
+                paginasAMA = 6;
+                mudarIcone("/Images/AJudarMeioAmbiente/quinto.jpg", 3);
+                break;
+            case 6:
+                paginasAMA = 5;
+                mudarIcone("/Images/AJudarMeioAmbiente/quarto.jpg", 3);
+                break;
+            case 5:
+                paginasAMA = 4;
+                mudarIcone("/Images/AJudarMeioAmbiente/terceiro.jpg", 3);
+                break;
+            case 4:
+                paginasAMA = 3;
+                mudarIcone("/Images/AJudarMeioAmbiente/segundo.jpg", 3);
+                break;
+            case 3:
+                paginasAMA = 2;
+                mudarIcone("/Images/AJudarMeioAmbiente/primeiro.jpg", 3);
+                break;
+            case 2:
+                paginasAMA = 1;
+                mudarIcone("/Images/AJudarMeioAmbiente/Zero.jpg", 1);
+                break;
+            default:
+                break;
         }
     }//GEN-LAST:event_btn_PrevMouseClicked
 
