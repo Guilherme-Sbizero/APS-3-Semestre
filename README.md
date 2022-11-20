@@ -1,6 +1,6 @@
 # APS 3º Semestre Meio Ambiente
 
-## Meio-Ambiente
+## TEMA: DESENVOLVIMENTO DE SOFTWARE UTILIZANDO CONCEITOS DE PROGRAMAÇÃO ORIENTADA A OBJETOS
 
 * Repositório para armazenar o projeto "meio ambiente" desenvolvido pelos alunos da turma CC3A33. O repositório contém uma pasta chamada "programa" para executar diretamente o programa. 
 
